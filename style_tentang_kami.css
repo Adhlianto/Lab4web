@@ -1,0 +1,54 @@
+/* import google font */
+@import
+url('https://fonts.google.com/specimen/PT+Serif');
+@import
+url('https://fonts.google.com/specimen/PT+Serif');
+/* Reset CSS */
+* {
+ margin: 1;
+ padding: 0;
+}
+body {
+ line-height:1;
+ font-size:100%;
+ font-family:'Open Sans', sans-serif;
+ color:#00008b;
+}
+#container {
+ width: 980px;
+ margin: 0 auto;
+ box-shadow: 0 0 1em #0000ff;
+}
+/* header */
+header {
+ padding: 20px;
+}
+header h1 {
+ margin: 20px 10px;
+ color: #000000;
+}
+/* navigasi */
+nav {
+    display: block;
+    background-color: #ffd700;
+   }
+   nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+   }
+   nav a.active,
+   nav a:hover {
+    background-color: #daa520;
+   }
+    /* footer */
+    footer {
+        clear:both;
+        background-color:#000011;
+        padding:10px;
+        color:#ffd700;
+       }
+    
